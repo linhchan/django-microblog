@@ -91,3 +91,16 @@ LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 CKEDITOR_UPLOAD_PATH = '/tmp/uploads'
 CKEDITOR_IMAGE_BACKEND = 'pillow'
+CKEDITOR_CONFIGS = {
+    'awesome_ckeditor': {
+        'toolbar': 'Basic',
+    },
+}
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Full',
+        'height': 300,
+        'width': 300,
+    },
+}
+MEDIA_URL = '/media/'
